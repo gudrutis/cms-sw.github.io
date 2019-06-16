@@ -2204,6 +2204,34 @@
     },
     {
         "exitcode": 0,
+        "id": "134.811",
+        "known_error": 0,
+        "name": "RunSinglePh2015C+RunSinglePh2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 415
+            },
+            {
+                "errors": 236,
+                "status": "PASSED",
+                "warnings": 8698
+            },
+            {
+                "errors": 31,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.813",
         "known_error": 0,
         "name": "RunCosmics2015C+RunCosmics2015C+RECOCOSDRUN2+ALCACOSDRUN2+HARVESTDCRUN2",
@@ -2225,6 +2253,34 @@
             },
             {
                 "errors": 70,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.902",
+        "known_error": 0,
+        "name": "RunDoubleEG2015D+RunDoubleEG2015D+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 394
+            },
+            {
+                "errors": 238,
+                "status": "PASSED",
+                "warnings": 6004
+            },
+            {
+                "errors": 31,
                 "status": "PASSED",
                 "warnings": 0
             }
