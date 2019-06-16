@@ -1004,6 +1004,34 @@
     },
     {
         "exitcode": 0,
+        "id": "18.0",
+        "known_error": 0,
+        "name": "SingleGammaPt10+SingleGammaPt10INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 55
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1211
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "20.0",
         "known_error": 0,
         "name": "SingleMuPt10+SingleMuPt10INPUT+DIGI+RECO+HARVEST",
@@ -7305,6 +7333,34 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 109
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "50202.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13INPUT+DIGIUP15_PU50+RECOUP15_PU50+HARVESTUP15_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 758
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
