@@ -416,6 +416,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.41",
+        "known_error": 0,
+        "name": "RunTau2012A+RunTau2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 266
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 6942
+            },
+            {
+                "errors": 71,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.44",
         "known_error": 0,
         "name": "RunElectron2012A+RunElectron2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
@@ -2364,6 +2392,34 @@
     },
     {
         "exitcode": 0,
+        "id": "134.706",
+        "known_error": 0,
+        "name": "RunMuonEG2015B+RunMuonEG2015B+HLTDR2_50ns+RECODR2_50nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 352
+            },
+            {
+                "errors": 237,
+                "status": "PASSED",
+                "warnings": 7792
+            },
+            {
+                "errors": 31,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.707",
         "known_error": 0,
         "name": "RunSingleEl2015B+RunSingleEl2015B+HLTDR2_50ns+RECODR2_50nsreHLT_HIPM+HARVESTDR2",
@@ -4137,6 +4193,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.757",
+        "known_error": 0,
+        "name": "RunMuOnia2016D+RunMuOnia2016D+HLTDR2_2016+RECODR2_2016reHLT_skimMuOnia_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 515
+            },
+            {
+                "errors": 262,
+                "status": "PASSED",
+                "warnings": 12539
+            },
+            {
+                "errors": 1281,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.758",
         "known_error": 0,
         "name": "RunHLTPhy2016E+RunHLTPhy2016E+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -4458,6 +4542,34 @@
                 "errors": 285,
                 "status": "PASSED",
                 "warnings": 3697
+            },
+            {
+                "errors": 1281,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.77",
+        "known_error": 0,
+        "name": "RunDoubleEG2016H+RunDoubleEG2016H+HLTDR2_2016+RECODR2_2016reHLT_skimDoubleEG_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 537
+            },
+            {
+                "errors": 316,
+                "status": "PASSED",
+                "warnings": 10817
             },
             {
                 "errors": 1281,
@@ -6473,6 +6585,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1102.0",
+        "known_error": 0,
+        "name": "RR+TTbarINPUT+DIGI+RECO+RECOFROMRECO+COPYPASTE",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 703
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 4032
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2156
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 71
             }
         ]
     },
@@ -9409,6 +9554,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 293
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25405.0",
+        "known_error": 0,
+        "name": "ZTT_13+FS_ZTT_13_UP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 1165
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 882
             }
         ]
     },
