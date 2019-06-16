@@ -126,6 +126,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.77",
+        "known_error": 0,
+        "name": "ZElSkim2012D+ZElSkim2012D+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 61
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 2884
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "5.2",
         "known_error": 0,
         "name": "SingleMuPt10+SingleMuPt10FS+HARVESTFS",
@@ -1923,6 +1951,24 @@
     },
     {
         "exitcode": 0,
+        "id": "1325.6",
+        "known_error": 0,
+        "name": "TTbar_13_94Xv1NanoAODINPUT+TTbar_13_94Xv1NanoAODINPUT+NANOAODMC2017_94XMiniAODv1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 262
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1325.8",
         "known_error": 0,
         "name": "TTbar_13_94Xv1NanoAODINPUT+TTbar_13_94Xv1NanoAODINPUT+NANOEDMMC2017_94XMiniAODv1+HARVESTNANOAODMC2017_94XMiniAODv1",
@@ -2087,6 +2133,34 @@
                 "errors": 18,
                 "status": "PASSED",
                 "warnings": 662
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250207.17",
+        "known_error": 0,
+        "name": "NuGun_UP17+NuGun_UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 85
+            },
+            {
+                "errors": 22,
+                "status": "PASSED",
+                "warnings": 243
             },
             {
                 "errors": 36,
