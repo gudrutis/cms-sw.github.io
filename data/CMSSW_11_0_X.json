@@ -250,7 +250,19 @@
                 }
             ], 
             "ib_date": "2019-06-16-0000-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0-sun-00/CMSSW_11_0_X_2019-06-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 42, 
+                        "known_failed": 0, 
+                        "num_failed": 2
+                    }
+                }
+            ], 
             "release_queue": "CMSSW_11_0_X", 
             "release_name": "CMSSW_11_0_X_2019-06-16-0000", 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700/-GenuineIntel/matrix-results", 
@@ -296,7 +308,14 @@
                 }
             ], 
             "material_budget_v2": "not-found", 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0-sun-00/CMSSW_11_0_X_2019-06-16-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "check-headers": "inprogress", 
             "static_checks_v2": "inprogress", 
             "valgrind": "inprogress", 
