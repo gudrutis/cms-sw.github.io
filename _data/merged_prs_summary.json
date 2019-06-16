@@ -108,12 +108,12 @@
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc700", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2019-06-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2592, 
+                            "num_passed": 2727, 
                             "known_failed": 6, 
                             "num_failed": 0
                         }
@@ -8434,8 +8434,14 @@
                 }, 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "static_checks_failures": "not-found", 
-                "static_checks": "slc6_amd64_gcc700:", 
+                "static_checks_failures": {
+                    "status": "found", 
+                    "arch": "slc6_amd64_gcc700", 
+                    "iterable": [
+                        "reports/modules2statics-filter1.txt\n"
+                    ]
+                }, 
+                "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
@@ -12077,7 +12083,7 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "igprof": "found", 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "comp_baseline_state": "ok", 
@@ -14168,6 +14174,60 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -14289,7 +14349,62 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -15480,6 +15595,60 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -16172,6 +16341,60 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -17168,6 +17391,60 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -17296,7 +17573,62 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -17378,7 +17710,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.ROOT618-sun-00/CMSSW_11_0_ROOT618_X_2019-06-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2871, 
+                            "num_passed": 2906, 
                             "known_failed": 0, 
                             "num_failed": 3
                         }
@@ -18434,7 +18766,62 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -18516,9 +18903,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.ROOT6-sun-00/CMSSW_11_0_ROOT6_X_2019-06-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2095, 
+                            "num_passed": 2140, 
                             "known_failed": 0, 
-                            "num_failed": 2
+                            "num_failed": 1
                         }
                     }
                 ], 
@@ -19854,6 +20241,60 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -20019,6 +20460,60 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -20244,7 +20739,62 @@
                 "comp_baseline": "inprogress", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }, 
+                    {
+                        "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
+                        "title": "update Pixel digitizer thresholds for Run3", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27181", 
+                        "number": "27181", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }
+                ], 
                 "base_branch": "CMSSW_11_0_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -20396,9 +20946,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/11.0-sun-00/CMSSW_11_0_X_2019-06-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1978, 
+                            "num_passed": 2026, 
                             "known_failed": 0, 
-                            "num_failed": 27
+                            "num_failed": 31
                         }
                     }
                 ], 
