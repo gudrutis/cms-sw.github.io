@@ -1,0 +1,143 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1559589734,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 4197352341,
+          "checksum": "adler32:3852231b,cksum:1465903519",
+          "creation_time": 1559258727.80266,
+          "id": 159453970,
+          "name": "/store/relval/CMSSW_10_6_0/RelValRSKKGluon_m3000GeV_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/09962CDA-BF8E-AC4C-8EA6-3D845FA1D211.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 4197352341,
+          "time_create": 1559258727.80266
+        }
+      ],
+      "qhash": "7fd72804b641a2ec7356ee65b23c8551"
+    },
+    {
+      "das": {
+        "expire": 1559589734,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 1314166599,
+          "checksum": "adler32:1861bf48,cksum:1570000458",
+          "creation_time": 1559258625.25858,
+          "id": 159453786,
+          "name": "/store/relval/CMSSW_10_6_0/RelValRSKKGluon_m3000GeV_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/FB400969-3118-6B4C-8CC2-BD72129F1680.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 1314166599,
+          "time_create": 1559258625.25858
+        }
+      ],
+      "qhash": "7fd72804b641a2ec7356ee65b23c8551"
+    },
+    {
+      "das": {
+        "expire": 1559589734,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 4195571413,
+          "checksum": "adler32:873c0744,cksum:737897310",
+          "creation_time": 1559257682.26398,
+          "id": 159453340,
+          "name": "/store/relval/CMSSW_10_6_0/RelValRSKKGluon_m3000GeV_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/63B15691-D98A-5D49-BB49-EF39DA172B4D.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 4195571413,
+          "time_create": 1559257682.26398
+        }
+      ],
+      "qhash": "7fd72804b641a2ec7356ee65b23c8551"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "7fd72804b641a2ec7356ee65b23c8551",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValRSKKGluon_m3000GeV_13/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValRSKKGluon_m3000GeV_13/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1559589733
+  },
+  "nresults": 3,
+  "status": "ok",
+  "timestamp": 1559589734
+}

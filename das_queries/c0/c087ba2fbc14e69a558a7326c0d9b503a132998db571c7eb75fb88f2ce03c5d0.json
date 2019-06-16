@@ -1,0 +1,108 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1560625846,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 95671329,
+          "checksum": "adler32:6600935a,cksum:3021871178",
+          "creation_time": 1559896860.46439,
+          "id": 159844107,
+          "name": "/store/relval/CMSSW_10_6_0/RelValZMM_13/GEN-SIM/106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/10000/CD8DDCCB-A8D9-4342-8A5F-7547A427EECD.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 95671329,
+          "time_create": 1559896860.46439
+        }
+      ],
+      "qhash": "d2bbfadc6c6a19f4da7ff80d22d82f36"
+    },
+    {
+      "das": {
+        "expire": 1560625846,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 4257185928,
+          "checksum": "adler32:8b1c0393,cksum:2110783197",
+          "creation_time": 1559897253.44693,
+          "id": 159844282,
+          "name": "/store/relval/CMSSW_10_6_0/RelValZMM_13/GEN-SIM/106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/10000/7A05634C-2F93-3E4A-82B4-051873668D5B.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 4257185928,
+          "time_create": 1559897253.44693
+        }
+      ],
+      "qhash": "d2bbfadc6c6a19f4da7ff80d22d82f36"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "d2bbfadc6c6a19f4da7ff80d22d82f36",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZMM_13/CMSSW_10_6_0-106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValZMM_13/CMSSW_10_6_0-106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1560625845
+  },
+  "nresults": 2,
+  "status": "ok",
+  "timestamp": 1560625846
+}

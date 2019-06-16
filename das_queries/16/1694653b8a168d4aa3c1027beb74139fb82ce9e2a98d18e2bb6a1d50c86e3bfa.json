@@ -1,0 +1,178 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1559590227,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 2188934251,
+          "checksum": "adler32:565a916b,cksum:3244878818",
+          "creation_time": 1559257681.27844,
+          "id": 159453337,
+          "name": "/store/relval/CMSSW_10_6_0/RelValQCD_Pt_600_800_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/F6F687E8-8375-1D42-B8D9-33BECF8EE990.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 2188934251,
+          "time_create": 1559257681.27844
+        }
+      ],
+      "qhash": "de5a95e6615cae7bfa269cba40e1126a"
+    },
+    {
+      "das": {
+        "expire": 1559590227,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 3995307612,
+          "checksum": "adler32:faa1d8cb,cksum:1290484280",
+          "creation_time": 1559258085.36515,
+          "id": 159453576,
+          "name": "/store/relval/CMSSW_10_6_0/RelValQCD_Pt_600_800_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/0A10EB14-3045-564A-B7C0-C5EF048D5E61.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 3995307612,
+          "time_create": 1559258085.36515
+        }
+      ],
+      "qhash": "de5a95e6615cae7bfa269cba40e1126a"
+    },
+    {
+      "das": {
+        "expire": 1559590227,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 434723252,
+          "checksum": "adler32:27055960,cksum:4015398633",
+          "creation_time": 1559259206.24313,
+          "id": 159454160,
+          "name": "/store/relval/CMSSW_10_6_0/RelValQCD_Pt_600_800_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/4A63FF78-1D26-374B-8AA2-4A2D6C323A79.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 434723252,
+          "time_create": 1559259206.24313
+        }
+      ],
+      "qhash": "de5a95e6615cae7bfa269cba40e1126a"
+    },
+    {
+      "das": {
+        "expire": 1559590227,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 4159484017,
+          "checksum": "adler32:9b0485ab,cksum:476083526",
+          "creation_time": 1559258725.72365,
+          "id": 159453950,
+          "name": "/store/relval/CMSSW_10_6_0/RelValQCD_Pt_600_800_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/60B8F214-BF51-1C49-A83F-90E7CB65EED7.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 4159484017,
+          "time_create": 1559258725.72365
+        }
+      ],
+      "qhash": "de5a95e6615cae7bfa269cba40e1126a"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "de5a95e6615cae7bfa269cba40e1126a",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValQCD_Pt_600_800_13/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValQCD_Pt_600_800_13/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1559590226
+  },
+  "nresults": 4,
+  "status": "ok",
+  "timestamp": 1559590227
+}

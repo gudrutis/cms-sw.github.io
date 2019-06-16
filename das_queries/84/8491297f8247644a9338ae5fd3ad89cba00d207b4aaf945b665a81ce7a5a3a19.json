@@ -1,0 +1,143 @@
+{
+  "ctime": 1,
+  "data": [
+    {
+      "das": {
+        "expire": 1559590010,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 4273786262,
+          "checksum": "adler32:4f983915,cksum:1917309157",
+          "creation_time": 1559260541.8995,
+          "id": 159454832,
+          "name": "/store/relval/CMSSW_10_6_0/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/7BC07B42-A507-2943-BA4E-112456563123.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 4273786262,
+          "time_create": 1559260541.8995
+        }
+      ],
+      "qhash": "01b32d9c8cfeb69a7e9f8fc9681e5d35"
+    },
+    {
+      "das": {
+        "expire": 1559590010,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 2727133157,
+          "checksum": "adler32:78e125be,cksum:1466169021",
+          "creation_time": 1559259682.60616,
+          "id": 159454534,
+          "name": "/store/relval/CMSSW_10_6_0/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/0314FA6B-D4B1-9F4C-818D-93C7901CCB57.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 2727133157,
+          "time_create": 1559259682.60616
+        }
+      ],
+      "qhash": "01b32d9c8cfeb69a7e9f8fc9681e5d35"
+    },
+    {
+      "das": {
+        "expire": 1559590010,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 403503094,
+          "checksum": "adler32:b4da5036,cksum:311353258",
+          "creation_time": 1559260643.20607,
+          "id": 159454943,
+          "name": "/store/relval/CMSSW_10_6_0/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/7CE9FA0C-4EB7-6D45-8796-493717EF5101.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 403503094,
+          "time_create": 1559260643.20607
+        }
+      ],
+      "qhash": "01b32d9c8cfeb69a7e9f8fc9681e5d35"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "01b32d9c8cfeb69a7e9f8fc9681e5d35",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValDisplacedSUSY_stopToBottom_M_300_1000mm_13/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1559590008
+  },
+  "nresults": 3,
+  "status": "ok",
+  "timestamp": 1559590010
+}

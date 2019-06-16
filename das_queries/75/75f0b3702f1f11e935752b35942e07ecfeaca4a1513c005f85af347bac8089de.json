@@ -1,0 +1,143 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1559590313,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 894948367,
+          "checksum": "adler32:ec8fecc7,cksum:4234944484",
+          "creation_time": 1559258084.69855,
+          "id": 159453574,
+          "name": "/store/relval/CMSSW_10_6_0/RelValBuMixing_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/F4E1E578-0F9F-6D4E-80EE-D4BC4A7C7F14.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 894948367,
+          "time_create": 1559258084.69855
+        }
+      ],
+      "qhash": "b40a70c51719dc4dfd5c39d1ebf12371"
+    },
+    {
+      "das": {
+        "expire": 1559590313,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 2805301414,
+          "checksum": "adler32:c1b2c739,cksum:3294934483",
+          "creation_time": 1559255542.79094,
+          "id": 159452223,
+          "name": "/store/relval/CMSSW_10_6_0/RelValBuMixing_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/B63FDF22-56DE-7949-8C4C-8C16642BF904.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 2805301414,
+          "time_create": 1559255542.79094
+        }
+      ],
+      "qhash": "b40a70c51719dc4dfd5c39d1ebf12371"
+    },
+    {
+      "das": {
+        "expire": 1559590313,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 2909266976,
+          "checksum": "adler32:a981d1da,cksum:1996951247",
+          "creation_time": 1559256222.18263,
+          "id": 159452522,
+          "name": "/store/relval/CMSSW_10_6_0/RelValBuMixing_13/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/C444079B-FB9A-9D41-9659-76467AAE2227.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 2909266976,
+          "time_create": 1559256222.18263
+        }
+      ],
+      "qhash": "b40a70c51719dc4dfd5c39d1ebf12371"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "b40a70c51719dc4dfd5c39d1ebf12371",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValBuMixing_13/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValBuMixing_13/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1559590312
+  },
+  "nresults": 3,
+  "status": "ok",
+  "timestamp": 1559590313
+}

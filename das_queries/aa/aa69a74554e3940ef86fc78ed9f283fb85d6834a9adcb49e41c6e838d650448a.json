@@ -1,0 +1,73 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1559590254,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 1758174360,
+          "checksum": "adler32:2595b75e,cksum:4044616307",
+          "creation_time": 1559253832.98774,
+          "id": 159451315,
+          "name": "/store/relval/CMSSW_10_6_0/RelValSingleElectronPt1000_UP15/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/CCA0A479-5924-3842-9713-184F04C54713.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 1758174360,
+          "time_create": 1559253832.98774
+        }
+      ],
+      "qhash": "09a336dd0304142384e7d24a26aefe93"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "09a336dd0304142384e7d24a26aefe93",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleElectronPt1000_UP15/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValSingleElectronPt1000_UP15/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1559590253
+  },
+  "nresults": 1,
+  "status": "ok",
+  "timestamp": 1559590254
+}

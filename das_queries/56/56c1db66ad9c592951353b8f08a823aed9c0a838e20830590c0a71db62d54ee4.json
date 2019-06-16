@@ -1,0 +1,143 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1560625970,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 4247128500,
+          "checksum": "adler32:a4ee165e,cksum:1473108075",
+          "creation_time": 1559893597.00638,
+          "id": 159842783,
+          "name": "/store/relval/CMSSW_10_6_0/RelValTTbar_13/GEN-SIM/106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/10000/D3AA1ABF-245A-B54A-9540-3E1EBAC404C2.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 4247128500,
+          "time_create": 1559893597.00638
+        }
+      ],
+      "qhash": "c048f81d7e0b77658f2b3e122df68efc"
+    },
+    {
+      "das": {
+        "expire": 1560625970,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 642359702,
+          "checksum": "adler32:b7b470da,cksum:1737328443",
+          "creation_time": 1559893597.00638,
+          "id": 159842784,
+          "name": "/store/relval/CMSSW_10_6_0/RelValTTbar_13/GEN-SIM/106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/10000/1F6CB2DD-67E4-AF45-BC9A-56B1BBC86616.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 642359702,
+          "time_create": 1559893597.00638
+        }
+      ],
+      "qhash": "c048f81d7e0b77658f2b3e122df68efc"
+    },
+    {
+      "das": {
+        "expire": 1560625970,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 3310912407,
+          "checksum": "adler32:34cbd91b,cksum:1356067310",
+          "creation_time": 1559893182.41414,
+          "id": 159842715,
+          "name": "/store/relval/CMSSW_10_6_0/RelValTTbar_13/GEN-SIM/106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/10000/6EF20B0B-3435-F842-AB9A-DCA5B88B92CA.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 3310912407,
+          "time_create": 1559893182.41414
+        }
+      ],
+      "qhash": "c048f81d7e0b77658f2b3e122df68efc"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "c048f81d7e0b77658f2b3e122df68efc",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_10_6_0-106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValTTbar_13/CMSSW_10_6_0-106X_upgrade2021_realistic_v5_LowSigmaZGTv5-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1560625969
+  },
+  "nresults": 3,
+  "status": "ok",
+  "timestamp": 1560625970
+}

@@ -1,0 +1,108 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1559590236,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 2164357792,
+          "checksum": "adler32:6152a9c9,cksum:2732620063",
+          "creation_time": 1559262533.73161,
+          "id": 159456009,
+          "name": "/store/relval/CMSSW_10_6_0/RelValJpsiMuMu_Pt-8/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/F3484AF8-5EE7-6148-9331-82C320124147.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 2164357792,
+          "time_create": 1559262533.73161
+        }
+      ],
+      "qhash": "dd1d12e57d94999ad4ac658a4a0e2d54"
+    },
+    {
+      "das": {
+        "expire": 1559590236,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 2035184533,
+          "checksum": "adler32:c33fd375,cksum:2116579321",
+          "creation_time": 1559269365.4681,
+          "id": 159460163,
+          "name": "/store/relval/CMSSW_10_6_0/RelValJpsiMuMu_Pt-8/GEN-SIM/106X_mcRun2_asymptotic_v3-v1/10000/B3D593FB-60D3-0044-9298-C0BCF3F7C7A3.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 2035184533,
+          "time_create": 1559269365.4681
+        }
+      ],
+      "qhash": "dd1d12e57d94999ad4ac658a4a0e2d54"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "dd1d12e57d94999ad4ac658a4a0e2d54",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValJpsiMuMu_Pt-8/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValJpsiMuMu_Pt-8/CMSSW_10_6_0-106X_mcRun2_asymptotic_v3-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1559590235
+  },
+  "nresults": 2,
+  "status": "ok",
+  "timestamp": 1559590236
+}
