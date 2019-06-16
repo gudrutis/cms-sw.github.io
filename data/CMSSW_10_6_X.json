@@ -49,7 +49,16 @@
         }, 
         {
             "comp_baseline_state": "ok", 
-            "python3_tests": [], 
+            "python3_tests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.6-sun-00/CMSSW_10_6_X_2019-06-16-0000/python3.html", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
             "tests_archs": [
                 "slc7_amd64_gcc700"
             ], 
@@ -128,11 +137,11 @@
             "static_checks_v2": "inprogress", 
             "valgrind": "inprogress", 
             "material_budget": "not-found", 
-            "lizard": "inprogress", 
+            "lizard": "found", 
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
-            "igprof": "inprogress", 
+            "igprof": "found", 
             "hlt_tests": "inprogress"
         }, 
         {
