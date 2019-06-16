@@ -481,6 +481,29 @@
     },
     {
         "exitcode": 0,
+        "id": "136.7722",
+        "known_error": 0,
+        "name": "RunJetHT2016H_nano+RunJetHT2016H_nano+NANOEDM2016_80X+HARVESTNANOAOD2016_80X",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 271
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.7801",
         "known_error": 0,
         "name": "RunHLTPhy2017B_AOD+RunHLTPhy2017B_AOD+DQMHLTonAOD_2017+HARVESTDQMHLTonAOD_2017",
@@ -884,6 +907,24 @@
             },
             {
                 "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "535.0",
+        "known_error": 0,
+        "name": "TTbar_13TeV_Pow_herwig7+TTbar_13TeV_Pow_herwig7+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 23
+            },
+            {
+                "errors": 11,
                 "status": "PASSED",
                 "warnings": 0
             }
@@ -1348,6 +1389,82 @@
     },
     {
         "exitcode": 0,
+        "id": "10801.0",
+        "known_error": 0,
+        "name": "SingleElectronPt10+SingleElectronPt10_pythia8_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 188
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 163
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10807.0",
+        "known_error": 0,
+        "name": "SingleMuPt10+SingleMuPt10_pythia8_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 24
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 140
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10824.5",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_pixelTrackingOnly_2018+HARVESTFull_pixelTrackingOnly_2018",
@@ -1399,6 +1516,19 @@
                 "errors": 36,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250399.17",
+        "known_error": 0,
+        "name": "FS_PREMIXUP17_PU50+FS_PREMIXUP17_PU50",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
             }
         ]
     }
