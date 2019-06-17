@@ -11469,6 +11469,34 @@
     },
     {
         "exitcode": 0,
+        "id": "27434.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D35_GenSimHLBeamSpotFull14INPUT+DigiFullTrigger_2023D35+RecoFullGlobal_2023D35+HARVESTFullGlobal_2023D35",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 36
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 187
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "27434.21",
         "known_error": 0,
         "name": "TTbar_14TeV_ProdLike+TTbar_14TeV_TuneCUETP8M1_2023D35_GenSimHLBeamSpotFull14INPUT+DigiFullTrigger_2023D35+RecoFullGlobal_ProdLike_2023D35+MiniAODFullGlobal_ProdLike_2023D35",
@@ -11755,6 +11783,29 @@
                 "errors": 39,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250200.1",
+        "known_error": 0,
+        "name": "ProdZEE_13_pmx25ns+ProdZEE_13+DIGIPRMXUP15_PROD_PU25+RECOPRMXUP15PROD_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 94
             }
         ]
     },
