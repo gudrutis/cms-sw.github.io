@@ -2443,6 +2443,52 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.879",
+        "known_error": 0,
+        "name": "RunSingleMu2018C+RunSingleMu2018C+HLTDR2_2018+RECODR2_2018reHLT_skimSingleMu_Offline_Lumi+HARVEST2018_L1TMuDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 248
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 698
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.881",
+        "known_error": 0,
+        "name": "RunMuOnia2018C+RunMuOnia2018C+HLTDR2_2018+RECODR2_2018reHLT_skimMuOnia_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 287
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 675
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.883",
         "known_error": 0,
         "name": "RunDisplacedJet2018C+RunDisplacedJet2018C+HLTDR2_2018+RECODR2_2018reHLT_skimDisplacedJet_Offline+HARVEST2018",
@@ -2512,6 +2558,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.887",
+        "known_error": 0,
+        "name": "RunDoubleMuon2018D+RunDoubleMuon2018D+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018_Prompt",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 349
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 755
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.888",
         "known_error": 0,
         "name": "RunJetHT2018D+RunJetHT2018D+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018_Prompt",
@@ -2530,6 +2599,29 @@
                 "errors": 9,
                 "status": "FAILED",
                 "warnings": 701
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.892",
+        "known_error": 0,
+        "name": "RunZeroBias2018D+RunZeroBias2018D+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018_Prompt",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 230
+            },
+            {
+                "errors": 33,
+                "status": "FAILED",
+                "warnings": 790
             }
         ]
     },
