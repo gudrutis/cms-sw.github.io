@@ -81,7 +81,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.CLANG-sun-23/CMSSW_11_0_CLANG_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2292, 
+                        "num_passed": 2499, 
                         "known_failed": 0, 
                         "num_failed": 4
                     }
@@ -841,20 +841,10 @@
                 "slc7_amd64_gcc700"
             ], 
             "cmsdist_merged_prs": {
-                "slc7_amd64_gcc700": [
-                    {
-                        "hash": "181b5324c01522663e4769a84ef2946a3ec4c407", 
-                        "title": "Add Zstandard library to externals", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/5003", 
-                        "number": "5003", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }
-                ]
+                "slc7_amd64_gcc700": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-06-09-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-06-11-2300/slc7_amd64_gcc700"
+                "slc7_amd64_gcc700": "Not Found..IB/CMSSW_11_0_CLANG_X_2019-06-11-2300/slc7_amd64_gcc700"
             }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-06-11-2300/slc7_amd64_gcc700"
@@ -1009,10 +999,10 @@
                 "slc7_amd64_gcc700": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-06-09-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-06-09-2300/slc7_amd64_gcc700"
+                "slc7_amd64_gcc700": "Not Found..Not Found"
             }, 
             "cmsdistTags": {
-                "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-06-09-2300/slc7_amd64_gcc700"
+                "slc7_amd64_gcc700": "Not Found"
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -1175,15 +1165,9 @@
         {
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
-            "tests_archs": [
-                "slc7_amd64_gcc700"
-            ], 
-            "cmsdist_merged_prs": {
-                "slc7_amd64_gcc700": []
-            }, 
-            "cmsdist_compared_tags": {
-                "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-06-09-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-06-09-2300/slc7_amd64_gcc700"
-            }, 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-06-09-2300/slc7_amd64_gcc700"
             }, 
@@ -1193,30 +1177,9 @@
             "base_branch": "CMSSW_11_0_X", 
             "compared_tags": "CMSSW_11_0_CLANG_X_2019-06-09-0000-->CMSSW_11_0_CLANG_X_2019-06-09-2300", 
             "dqm_tests": "found", 
-            "utests": [
-                {
-                    "arch": "slc7_amd64_gcc700", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.CLANG-sun-23/CMSSW_11_0_CLANG_X_2019-06-09-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "4"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2019-06-09-2300-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc700", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.CLANG-sun-23/CMSSW_11_0_CLANG_X_2019-06-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2939, 
-                        "known_failed": 0, 
-                        "num_failed": 0
-                    }
-                }
-            ], 
+            "relvals": [], 
             "release_queue": "CMSSW_11_0_CLANG_X", 
             "release_name": "CMSSW_11_0_CLANG_X_2019-06-09-2300", 
             "comp_baseline": "not-found", 
@@ -1253,17 +1216,7 @@
             ], 
             "fwlite": [], 
             "invalid_includes": [], 
-            "builds": [
-                {
-                    "arch": "slc7_amd64_gcc700", 
-                    "passed": "warning", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.CLANG-sun-23/CMSSW_11_0_CLANG_X_2019-06-09-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "compWarning": 1, 
-                        "ignoreWarning": 154
-                    }
-                }
-            ], 
+            "builds": [], 
             "material_budget_v2": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
@@ -1272,14 +1225,7 @@
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [
-                {
-                    "arch": "slc7_amd64_gcc700", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.CLANG-sun-23/CMSSW_11_0_CLANG_X_2019-06-09-2300/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
+            "addons": [], 
             "hlt_tests": "not-found"
         }, 
         {
