@@ -14342,10 +14342,64 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
-                        "title": "GENSIM strings for 10_6_X", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
-                        "number": "27206", 
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
@@ -14358,15 +14412,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
@@ -14387,22 +14432,22 @@
                         "author_login": "andrius-k"
                     }, 
                     {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "fabiocos"
+                        "author_login": "gartung"
                     }, 
                     {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "gartung"
                     }, 
                     {
                         "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
@@ -14423,13 +14468,13 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "civanch"
+                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -14441,22 +14486,22 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "6723259642409edb9cb542896bfb53372a32740b", 
@@ -14475,6 +14520,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
+                        "title": "GENSIM strings for 10_6_X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
+                        "number": "27206", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
                     }
                 ], 
                 "fwlite": [], 
@@ -14608,6 +14662,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
                         "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27204", 
@@ -14617,13 +14680,58 @@
                         "author_login": "civanch"
                     }, 
                     {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
                     }
                 ], 
                 "fwlite": [], 
@@ -15943,10 +16051,64 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
-                        "title": "GENSIM strings for 10_6_X", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
-                        "number": "27206", 
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
@@ -15959,15 +16121,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
@@ -15988,22 +16141,22 @@
                         "author_login": "andrius-k"
                     }, 
                     {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "fabiocos"
+                        "author_login": "gartung"
                     }, 
                     {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "gartung"
                     }, 
                     {
                         "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
@@ -16024,13 +16177,13 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "civanch"
+                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -16042,22 +16195,22 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "6723259642409edb9cb542896bfb53372a32740b", 
@@ -16076,6 +16229,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
+                        "title": "GENSIM strings for 10_6_X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
+                        "number": "27206", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
                     }
                 ], 
                 "fwlite": [], 
@@ -16743,6 +16905,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
                         "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27204", 
@@ -16752,13 +16923,58 @@
                         "author_login": "civanch"
                     }, 
                     {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
                     }
                 ], 
                 "fwlite": [], 
@@ -17931,10 +18147,64 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
-                        "title": "GENSIM strings for 10_6_X", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
-                        "number": "27206", 
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
@@ -17947,15 +18217,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
@@ -17976,22 +18237,22 @@
                         "author_login": "andrius-k"
                     }, 
                     {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "fabiocos"
+                        "author_login": "gartung"
                     }, 
                     {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "gartung"
                     }, 
                     {
                         "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
@@ -18012,13 +18273,13 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "civanch"
+                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -18030,22 +18291,22 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "6723259642409edb9cb542896bfb53372a32740b", 
@@ -18064,6 +18325,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
+                        "title": "GENSIM strings for 10_6_X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
+                        "number": "27206", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
                     }
                 ], 
                 "fwlite": [], 
@@ -18204,6 +18474,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
                         "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27204", 
@@ -18213,13 +18492,58 @@
                         "author_login": "civanch"
                     }, 
                     {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
                     }
                 ], 
                 "fwlite": [], 
@@ -19476,6 +19800,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc700": [
                         {
+                            "hash": "f840ee3b4450d7aa1c8c5365d00f957eb9d85e05", 
+                            "title": "Updated root to tip of branch master", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/5034", 
+                            "number": "5034", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "mrodozov"
+                        }, 
+                        {
                             "hash": "097d6bec87686ab715bdb9615cce4f8ad6a22773", 
                             "title": "[BuildRules] Pass full path to tmp direcotry to avoid errors", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/5044", 
@@ -19506,6 +19839,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
                         "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27204", 
@@ -19515,13 +19857,58 @@
                         "author_login": "civanch"
                     }, 
                     {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
                     }
                 ], 
                 "fwlite": [], 
@@ -21080,10 +21467,64 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
-                        "title": "GENSIM strings for 10_6_X", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
-                        "number": "27206", 
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
@@ -21096,15 +21537,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
@@ -21125,22 +21557,22 @@
                         "author_login": "andrius-k"
                     }, 
                     {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "fabiocos"
+                        "author_login": "gartung"
                     }, 
                     {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "gartung"
                     }, 
                     {
                         "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
@@ -21161,13 +21593,13 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "civanch"
+                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -21179,22 +21611,22 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "6723259642409edb9cb542896bfb53372a32740b", 
@@ -21213,6 +21645,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
+                        "title": "GENSIM strings for 10_6_X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
+                        "number": "27206", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
                     }
                 ], 
                 "fwlite": [], 
@@ -21380,10 +21821,64 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
-                        "title": "GENSIM strings for 10_6_X", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
-                        "number": "27206", 
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
@@ -21396,15 +21891,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
                     }, 
                     {
                         "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
@@ -21425,22 +21911,22 @@
                         "author_login": "andrius-k"
                     }, 
                     {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "fabiocos"
+                        "author_login": "gartung"
                     }, 
                     {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "perrotta"
+                        "author_login": "gartung"
                     }, 
                     {
                         "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
@@ -21461,13 +21947,13 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "civanch"
+                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -21479,22 +21965,22 @@
                         "author_login": "makortel"
                     }, 
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "6723259642409edb9cb542896bfb53372a32740b", 
@@ -21513,6 +21999,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
+                        "title": "GENSIM strings for 10_6_X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27206", 
+                        "number": "27206", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
                     }
                 ], 
                 "fwlite": [], 
@@ -21704,7 +22199,62 @@
                 "comp_baseline": "inprogress", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "6bc05ebd7cd0969341f848370baab685c0d8655a", 
+                        "title": "Remove redundant unique_ptr constructor calls from AlCa", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27185", 
+                        "number": "27185", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "5e9be157e7d2be5bf7c2f28c96bfdfa5ed105f63", 
+                        "title": "Merged KDTreeLinkerAlgo and KDTreeLinkerAlgoT", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27049", 
+                        "number": "27049", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }
+                ], 
                 "base_branch": "CMSSW_11_0_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -21812,7 +22362,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.0-mon-11/CMSSW_11_0_X_2019-06-17-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2465, 
+                            "num_passed": 2864, 
                             "known_failed": 0, 
                             "num_failed": 4
                         }
@@ -21823,9 +22373,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-11/CMSSW_11_0_X_2019-06-17-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2144, 
-                            "known_failed": 0, 
-                            "num_failed": 52
+                            "num_passed": 2274, 
+                            "known_failed": 26, 
+                            "num_failed": 57
                         }
                     }
                 ], 
