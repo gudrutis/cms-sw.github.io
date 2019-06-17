@@ -21538,7 +21538,102 @@
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": [], 
+                    "slc7_ppc64le_gcc700": [], 
+                    "slc7_amd64_gcc900": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": {
+                    "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_X/gcc700", 
+                    "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X/gcc820", 
+                    "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_ppc64le_gcc700..IB/CMSSW_11_0_X/gcc700", 
+                    "slc7_amd64_gcc900": "ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc900..IB/CMSSW_11_0_X/gcc9", 
+                    "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700..IB/CMSSW_11_0_X/gcc700"
+                }, 
+                "static_checks_failures": "not-found", 
+                "cmsdistTags": {}, 
+                "flawfinder": "inprogress", 
+                "next_ib": true, 
+                "RVExceptions": null, 
+                "fwlite": [], 
+                "compared_tags": "CMSSW_11_0_X_2019-06-16-2300-->CMSSW_11_0_X", 
+                "dqm_tests": "inprogress", 
+                "utests": [], 
+                "ib_date": "2019-06-16-2300-0001", 
+                "relvals": [], 
+                "release_queue": "CMSSW_11_0_X", 
+                "release_name": "CMSSW_11_0_X", 
+                "comp_baseline": "inprogress", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [], 
+                "base_branch": "CMSSW_11_0_X", 
+                "invalid_includes": [], 
+                "builds": [], 
+                "material_budget_v2": "not-found", 
+                "addons": [], 
+                "check-headers": "inprogress", 
+                "static_checks_v2": "inprogress", 
+                "valgrind": "inprogress", 
+                "material_budget": "not-found", 
+                "lizard": "inprogress", 
+                "static_checks": "inprogress", 
+                "isIB": false, 
+                "inProgress": false, 
+                "igprof": "inprogress", 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "comp_baseline_state": "ok", 
+                "python3_tests": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/python3.html", 
+                        "details": {
+                            "num_fails": "0"
+                        }
+                    }
+                ], 
+                "tests_archs": [
+                    "slc7_amd64_gcc700", 
+                    "slc7_amd64_gcc820", 
+                    "slc7_ppc64le_gcc700", 
+                    "slc7_amd64_gcc900", 
+                    "slc7_aarch64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
                     "slc7_amd64_gcc820": [
+                        {
+                            "hash": "ae85ecb88a2902a10fdbd7834aea2c23e17f05a8", 
+                            "title": "Update jemalloc to version 5.2.0", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/5039", 
+                            "number": "5039", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "fwyzard"
+                        }, 
+                        {
+                            "hash": "4572d1d818844c824b046810b2319d53a26e6bad", 
+                            "title": "[BuildRules] update build rules", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/5043", 
+                            "number": "5043", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "b8467c07a73631cf38e8d504e8075a437588487c", 
+                            "title": "[TBB] Update to 2019_U8", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/5031", 
+                            "number": "5031", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_amd64_gcc900": [
                         {
                             "hash": "ae85ecb88a2902a10fdbd7834aea2c23e17f05a8", 
                             "title": "Update jemalloc to version 5.2.0", 
@@ -21596,108 +21691,20 @@
                             "author_login": "cms-sw"
                         }
                     ], 
-                    "slc7_amd64_gcc900": [], 
-                    "slc7_aarch64_gcc700": []
-                }, 
-                "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_X/gcc700", 
-                    "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-06-14-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X/gcc820", 
-                    "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-14-2300/slc7_ppc64le_gcc700..IB/CMSSW_11_0_X/gcc700", 
-                    "slc7_amd64_gcc900": "ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc900..IB/CMSSW_11_0_X/gcc9", 
-                    "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700..IB/CMSSW_11_0_X/gcc700"
-                }, 
-                "static_checks_failures": "not-found", 
-                "cmsdistTags": {}, 
-                "flawfinder": "inprogress", 
-                "next_ib": true, 
-                "RVExceptions": null, 
-                "fwlite": [], 
-                "compared_tags": "CMSSW_11_0_X_2019-06-16-2300-->CMSSW_11_0_X", 
-                "dqm_tests": "inprogress", 
-                "utests": [], 
-                "ib_date": "2019-06-16-2300-0001", 
-                "relvals": [], 
-                "release_queue": "CMSSW_11_0_X", 
-                "release_name": "CMSSW_11_0_X", 
-                "comp_baseline": "inprogress", 
-                "gpu_utests": [], 
-                "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
-                "base_branch": "CMSSW_11_0_X", 
-                "invalid_includes": [], 
-                "builds": [], 
-                "material_budget_v2": "not-found", 
-                "addons": [], 
-                "check-headers": "inprogress", 
-                "static_checks_v2": "inprogress", 
-                "valgrind": "inprogress", 
-                "material_budget": "not-found", 
-                "lizard": "inprogress", 
-                "static_checks": "inprogress", 
-                "isIB": false, 
-                "inProgress": false, 
-                "igprof": "inprogress", 
-                "hlt_tests": "inprogress"
-            }, 
-            {
-                "comp_baseline_state": "ok", 
-                "python3_tests": [
-                    {
-                        "arch": "slc7_amd64_gcc700", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/python3.html", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
-                "tests_archs": [
-                    "slc7_amd64_gcc700", 
-                    "slc7_amd64_gcc900", 
-                    "slc7_aarch64_gcc700"
-                ], 
-                "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc700": [], 
-                    "slc7_amd64_gcc900": [
-                        {
-                            "hash": "ae85ecb88a2902a10fdbd7834aea2c23e17f05a8", 
-                            "title": "Update jemalloc to version 5.2.0", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/5039", 
-                            "number": "5039", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "fwyzard"
-                        }, 
-                        {
-                            "hash": "4572d1d818844c824b046810b2319d53a26e6bad", 
-                            "title": "[BuildRules] update build rules", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/5043", 
-                            "number": "5043", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "b8467c07a73631cf38e8d504e8075a437588487c", 
-                            "title": "[TBB] Update to 2019_U8", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/5031", 
-                            "number": "5031", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }
-                    ], 
                     "slc7_aarch64_gcc700": []
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700", 
+                    "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-06-14-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc820", 
                     "slc7_amd64_gcc900": "ERR/CMSSW_11_0_X_2019-06-14-2300/slc7_amd64_gcc900..ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc900", 
+                    "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-14-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_ppc64le_gcc700", 
                     "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700", 
                     "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc820", 
+                    "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_ppc64le_gcc700", 
                     "slc7_amd64_gcc900": "ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc900", 
                     "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700"
                 }, 
@@ -21732,9 +21739,21 @@
                         }
                     }, 
                     {
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
                         "arch": "slc7_amd64_gcc900", 
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_ppc64le_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_ppc64le_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl']", 
                         "details": {}
                     }
                 ], 
@@ -21906,6 +21925,14 @@
                         "details": {}
                     }, 
                     {
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 220
+                        }
+                    }, 
+                    {
                         "arch": "slc7_amd64_gcc900", 
                         "passed": "error", 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl", 
@@ -21922,6 +21949,17 @@
                         "passed": "passed", 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl", 
                         "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_ppc64le_gcc700", 
+                        "passed": "error", 
+                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "compWarning": 12, 
+                            "miscError": 2, 
+                            "compError": 1, 
+                            "ignoreWarning": 256
+                        }
                     }
                 ], 
                 "material_budget_v2": "not-found", 
