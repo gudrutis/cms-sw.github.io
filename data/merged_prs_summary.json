@@ -90,8 +90,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-23/CMSSW_10_2_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2258, 
-                            "known_failed": 5, 
+                            "num_passed": 2272, 
+                            "known_failed": 6, 
                             "num_failed": 0
                         }
                     }
@@ -11690,7 +11690,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/10.5-sun-23/CMSSW_10_5_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2689, 
+                            "num_passed": 2713, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -12160,7 +12160,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/10.6-sun-23/CMSSW_10_6_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2693, 
+                            "num_passed": 2765, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -14411,6 +14411,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
                         "title": "Remove redundant unique_ptr constructor call from DDAlgorithmHandler", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27186", 
@@ -14576,6 +14585,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
                     {
                         "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
                         "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
@@ -15984,6 +16002,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
                         "title": "Remove redundant unique_ptr constructor call from DDAlgorithmHandler", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27186", 
@@ -16684,6 +16711,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
                         "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27218", 
@@ -16774,9 +16810,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.DEVEL-sun-23/CMSSW_11_0_DEVEL_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1293, 
+                            "num_passed": 1324, 
                             "known_failed": 0, 
-                            "num_failed": 461
+                            "num_failed": 477
                         }
                     }
                 ], 
@@ -17935,6 +17971,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
                         "title": "Remove redundant unique_ptr constructor call from DDAlgorithmHandler", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27186", 
@@ -18108,6 +18153,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
                         "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27218", 
@@ -18170,7 +18224,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.ROOT618-sun-23/CMSSW_11_0_ROOT618_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2879, 
+                            "num_passed": 2896, 
                             "known_failed": 0, 
                             "num_failed": 4
                         }
@@ -19390,6 +19444,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
                     {
                         "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
                         "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
@@ -21028,6 +21091,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
                         "title": "Remove redundant unique_ptr constructor call from DDAlgorithmHandler", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27186", 
@@ -21310,6 +21382,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
                         "title": "Remove redundant unique_ptr constructor call from DDAlgorithmHandler", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27186", 
@@ -21495,6 +21576,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
                     {
                         "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
                         "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
@@ -21720,7 +21810,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1652, 
+                            "num_passed": 1841, 
                             "known_failed": 0, 
                             "num_failed": 4
                         }
@@ -21742,8 +21832,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2289, 
-                            "known_failed": 1, 
+                            "num_passed": 2297, 
+                            "known_failed": 7, 
                             "num_failed": 147
                         }
                     }, 
@@ -21753,9 +21843,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 523, 
+                            "num_passed": 603, 
                             "known_failed": 0, 
-                            "num_failed": 3
+                            "num_failed": 10
                         }
                     }
                 ], 
@@ -21981,7 +22071,7 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "igprof": "found", 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "comp_baseline_state": "ok", 
