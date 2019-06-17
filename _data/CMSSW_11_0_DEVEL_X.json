@@ -7,7 +7,17 @@
             "python3_tests": [], 
             "tests_archs": [], 
             "cmsdist_merged_prs": {
-                "slc7_amd64_gcc700": []
+                "slc7_amd64_gcc700": [
+                    {
+                        "hash": "097d6bec87686ab715bdb9615cce4f8ad6a22773", 
+                        "title": "[BuildRules] Pass full path to tmp direcotry to avoid errors", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/5044", 
+                        "number": "5044", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ]
             }, 
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_DEVEL_X_2019-06-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X/gcc700next"
@@ -123,14 +133,14 @@
             "ib_date": "2019-06-16-2300-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_amd64_gcc700", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.DEVEL-sun-23/CMSSW_11_0_DEVEL_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1646, 
+                        "num_passed": 1675, 
                         "known_failed": 0, 
-                        "num_failed": 641
+                        "num_failed": 656
                     }
                 }
             ], 
