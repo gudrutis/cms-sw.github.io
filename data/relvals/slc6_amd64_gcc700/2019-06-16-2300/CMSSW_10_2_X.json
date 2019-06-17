@@ -30,6 +30,21 @@
         ]
     },
     {
+        "exitcode": 31744,
+        "id": "555.0",
+        "known_error": 1,
+        "known_error_message": "GCC ABI incompetibility. GridPacks were built with gcc4",
+        "known_failed_step": 1,
+        "name": "DYTollJets_NLO_Mad_13TeV_py8+DYToll012Jets_5f_NLO_FXFX_Madgraph_LHE_13TeV+Hadronizer_TuneCUETP8M1_13TeV_aMCatNLO_FXFX_5f_max2j_max0p_LHE_pythia8+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
         "exitcode": 16640,
         "id": "562.0",
         "known_error": 1,
@@ -1521,6 +1536,34 @@
                 "errors": 3,
                 "status": "PASSED",
                 "warnings": 679
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "17.0",
+        "known_error": 0,
+        "name": "SingleElectronPt35+SingleElectronPt35INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 54
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 675
             },
             {
                 "errors": 34,
@@ -12479,6 +12522,39 @@
     },
     {
         "exitcode": 0,
+        "id": "10026.0",
+        "known_error": 0,
+        "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 84
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 725
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10224.0",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2017PU_GenSimFullINPUT+DigiFullPU_2017PU+RecoFullPU_2017PU+HARVESTFullPU_2017PU",
@@ -13260,6 +13336,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 350
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11024.3",
+        "known_error": 0,
+        "name": "TTbar_13UP18BadHcalMitigINPUT+TTbar_13UP18BadHcalMitigINPUT+DigiFullBadHcalMitig+RecoFullBadHcalMitig+HARVESTFullBadHcalMitig+NanoFullBadHcalMitig",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1229
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1003
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 251
             }
         ]
     },
