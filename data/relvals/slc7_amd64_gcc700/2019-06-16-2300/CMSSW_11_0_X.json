@@ -11,5 +11,123 @@
                 "warnings": 0
             }
         ]
+    },
+    {
+        "exitcode": 17920,
+        "id": "136.7801",
+        "known_error": 0,
+        "name": "RunHLTPhy2017B_AOD+RunHLTPhy2017B_AOD+DQMHLTonAOD_2017+HARVESTDQMHLTonAOD_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "135.8",
+        "known_error": 0,
+        "name": "MinBiasFS_13_ForMixing+MinBiasFS_13_ForMixing",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 51
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.7802",
+        "known_error": 0,
+        "name": "RunHLTPhy2017B_AODextra+RunHLTPhy2017B_AODextra+DQMHLTonAODextra_2017+HARVESTDQMHLTonAOD_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 45
+            },
+            {
+                "errors": 83,
+                "status": "PASSED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "527.0",
+        "known_error": 0,
+        "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta_taupinu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Httpinu_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 68
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "535.0",
+        "known_error": 0,
+        "name": "TTbar_13TeV_Pow_herwig7+TTbar_13TeV_Pow_herwig7+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 70
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "562.0",
+        "known_error": 0,
+        "name": "BulkG_ZZ_2L2Q_M1200_narrow_13TeV_pythia8+BulkG_M1200_narrow_2L2Q_LHE_13TeV+Hadronizer_TuneCUETP8M1_Mad_pythia8+HARVESTGEN2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 100
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
     }
 ]
