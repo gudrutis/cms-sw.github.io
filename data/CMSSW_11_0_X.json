@@ -66,42 +66,14 @@
                         "author_login": "cms-sw"
                     }
                 ], 
-                "slc7_amd64_gcc900": [
-                    {
-                        "hash": "ae85ecb88a2902a10fdbd7834aea2c23e17f05a8", 
-                        "title": "Update jemalloc to version 5.2.0", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/5039", 
-                        "number": "5039", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "fwyzard"
-                    }, 
-                    {
-                        "hash": "4572d1d818844c824b046810b2319d53a26e6bad", 
-                        "title": "[BuildRules] update build rules", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/5043", 
-                        "number": "5043", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "b8467c07a73631cf38e8d504e8075a437588487c", 
-                        "title": "[TBB] Update to 2019_U8", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/5031", 
-                        "number": "5031", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }
-                ], 
+                "slc7_amd64_gcc900": [], 
                 "slc7_aarch64_gcc700": []
             }, 
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_X/gcc700", 
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-06-14-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X/gcc820", 
                 "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-14-2300/slc7_ppc64le_gcc700..IB/CMSSW_11_0_X/gcc700", 
-                "slc7_amd64_gcc900": "ERR/CMSSW_11_0_X_2019-06-14-2300/slc7_amd64_gcc900..IB/CMSSW_11_0_X/gcc9", 
+                "slc7_amd64_gcc900": "ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc900..IB/CMSSW_11_0_X/gcc9", 
                 "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700..IB/CMSSW_11_0_X/gcc700"
             }, 
             "static_checks_failures": "not-found", 
@@ -151,14 +123,45 @@
             ], 
             "tests_archs": [
                 "slc7_amd64_gcc700", 
+                "slc7_amd64_gcc900", 
                 "slc7_aarch64_gcc700"
             ], 
             "cmsdist_merged_prs": {
                 "slc7_amd64_gcc700": [], 
+                "slc7_amd64_gcc900": [
+                    {
+                        "hash": "ae85ecb88a2902a10fdbd7834aea2c23e17f05a8", 
+                        "title": "Update jemalloc to version 5.2.0", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/5039", 
+                        "number": "5039", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "fwyzard"
+                    }, 
+                    {
+                        "hash": "4572d1d818844c824b046810b2319d53a26e6bad", 
+                        "title": "[BuildRules] update build rules", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/5043", 
+                        "number": "5043", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "b8467c07a73631cf38e8d504e8075a437588487c", 
+                        "title": "[TBB] Update to 2019_U8", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/5031", 
+                        "number": "5031", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
                 "slc7_aarch64_gcc700": []
             }, 
             "cmsdist_compared_tags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700", 
+                "slc7_amd64_gcc900": "ERR/CMSSW_11_0_X_2019-06-14-2300/slc7_amd64_gcc900..ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc900", 
                 "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700"
             }, 
             "static_checks_failures": "not-found", 
@@ -194,6 +197,12 @@
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl']", 
                     "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl']", 
+                    "details": {}
                 }
             ], 
             "ib_date": "2019-06-16-2300-0000", 
@@ -204,7 +213,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 300, 
+                        "num_passed": 304, 
                         "known_failed": 0, 
                         "num_failed": 4
                     }
@@ -215,7 +224,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1800, 
+                        "num_passed": 1824, 
                         "known_failed": 0, 
                         "num_failed": 115
                     }
@@ -362,6 +371,18 @@
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl", 
                     "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "error", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-06-16-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1412, 
+                        "miscError": 384, 
+                        "compError": 4, 
+                        "ignoreWarning": 255, 
+                        "linkError": 53564
+                    }
                 }, 
                 {
                     "arch": "slc7_aarch64_gcc700", 
@@ -526,12 +547,12 @@
                     }
                 }, 
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc7_aarch64_gcc700", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/sun/11.0-sun-00/CMSSW_11_0_X_2019-06-16-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2647, 
+                        "num_passed": 2657, 
                         "known_failed": 48, 
                         "num_failed": 51
                     }
