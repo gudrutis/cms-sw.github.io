@@ -319,6 +319,29 @@
         ]
     },
     {
+        "exitcode": 31744,
+        "id": "136.762",
+        "known_error": 0,
+        "name": "RunMET2016E+RunMET2016E+HLTDR2_2016+RECODR2_2016reHLT_skimMET_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 163,
+                "status": "PASSED",
+                "warnings": 56
+            },
+            {
+                "errors": 353,
+                "status": "FAILED",
+                "warnings": 13268
+            }
+        ]
+    },
+    {
         "exitcode": 16640,
         "id": "136.796",
         "known_error": 0,
@@ -384,6 +407,52 @@
                 "errors": 188,
                 "status": "FAILED",
                 "warnings": 1434
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.833",
+        "known_error": 0,
+        "name": "RunMuonEG2017F+RunMuonEG2017F+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 76
+            },
+            {
+                "errors": 199,
+                "status": "FAILED",
+                "warnings": 2361
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.871",
+        "known_error": 0,
+        "name": "RunDisplacedJet2018B+RunDisplacedJet2018B+HLTDR2_2018+RECODR2_2018reHLT_skimDisplacedJet_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 484
+            },
+            {
+                "errors": 15,
+                "status": "FAILED",
+                "warnings": 1678
             }
         ]
     },
@@ -2126,6 +2195,34 @@
             },
             {
                 "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.83",
+        "known_error": 0,
+        "name": "RunDoubleMuon2017F+RunDoubleMuon2017F+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 36
+            },
+            {
+                "errors": 207,
+                "status": "PASSED",
+                "warnings": 1660
+            },
+            {
+                "errors": 32,
                 "status": "PASSED",
                 "warnings": 0
             }
