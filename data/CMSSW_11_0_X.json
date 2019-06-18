@@ -207,7 +207,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 259, 
+                        "num_passed": 305, 
                         "known_failed": 0, 
                         "num_failed": 3
                     }
@@ -218,9 +218,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2000, 
+                        "num_passed": 2159, 
                         "known_failed": 0, 
-                        "num_failed": 9
+                        "num_failed": 11
                     }
                 }, 
                 {
@@ -229,7 +229,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 627, 
+                        "num_passed": 843, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -251,7 +251,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1013, 
+                        "num_passed": 1027, 
                         "known_failed": 0, 
                         "num_failed": 36
                     }
@@ -419,7 +419,7 @@
             ], 
             "check-headers": "passed", 
             "static_checks_v2": "inprogress", 
-            "valgrind": "inprogress", 
+            "valgrind": "found", 
             "material_budget": "not-found", 
             "lizard": "found", 
             "static_checks": "inprogress", 
