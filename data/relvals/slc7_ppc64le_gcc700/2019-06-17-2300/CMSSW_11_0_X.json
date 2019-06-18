@@ -1363,6 +1363,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.78",
+        "known_error": 0,
+        "name": "WElSkim2012D+WElSkim2012D+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 41
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 1027
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "5.1",
         "known_error": 0,
         "name": "TTbar+TTbarFS+HARVESTFS",
@@ -4293,6 +4321,34 @@
                 "errors": 210,
                 "status": "PASSED",
                 "warnings": 1720
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.835",
+        "known_error": 0,
+        "name": "RunSingleMu2017F+RunSingleMu2017F+HLTDR2_2017+RECODR2_2017reHLT_skimSingleMu_Prompt_Lumi+HARVEST2017_L1TMuDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            },
+            {
+                "errors": 208,
+                "status": "PASSED",
+                "warnings": 1759
             },
             {
                 "errors": 32,
@@ -8448,6 +8504,39 @@
             },
             {
                 "errors": 39,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250202.171",
+        "known_error": 0,
+        "name": "TTbar_13UP17+TTbar_13UP17INPUT+PREMIXUP17_PU25+DIGIPRMXLOCALUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 319
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 630
+            },
+            {
+                "errors": 36,
                 "status": "PASSED",
                 "warnings": 2
             }
