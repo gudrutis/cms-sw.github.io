@@ -1,5 +1,59 @@
 [
     {
+        "exitcode": 23552,
+        "id": "1370.0",
+        "known_error": 0,
+        "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13INPUT+Hadronizer_TuneCUETP8M1_13TeV_powhegEmissionVeto_2p_HToGG_M125_13+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "1370.17",
+        "known_error": 0,
+        "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP17+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP17INPUT+Hadronizer_TuneCUETP8M1_13TeV_powhegEmissionVeto_2p_HToGG_M125_13UP17+DIGIUP17+RECOUP17+HARVESTUP17",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "1370.18",
+        "known_error": 0,
+        "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP18+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP18INPUT+Hadronizer_TuneCUETP8M1_13TeV_powhegEmissionVeto_2p_HToGG_M125_13UP18+DIGIUP18+RECOUP18+HARVESTUP18",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
         "exitcode": 1,
         "id": "250203.18",
         "known_error": 0,
@@ -8,6 +62,114 @@
             {
                 "errors": 0,
                 "status": "DAS_ERROR",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "25215.0",
+        "known_error": 0,
+        "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13INPUT+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13INPUT+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "25215.17",
+        "known_error": 0,
+        "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP17INPUT+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP17INPUT+DIGIUP17_PU25+RECOUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 23552,
+        "id": "25215.18",
+        "known_error": 0,
+        "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP18INPUT+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP18INPUT+DIGIUP18_PU25+RECOUP18_PU25+HARVESTUP18_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "505.0",
+        "known_error": 0,
+        "name": "DYToLL_M-50_13TeV_pythia8+DYToLL_M-50_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 39
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "508.0",
+        "known_error": 0,
+        "name": "SoftQCDnonDiffractive_13TeV_pythia8+SoftQCDnonDiffractive_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 48
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "510.0",
+        "known_error": 0,
+        "name": "SoftQCDinelastic_13TeV_pythia8+SoftQCDinelastic_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
                 "warnings": 0
             }
         ]
