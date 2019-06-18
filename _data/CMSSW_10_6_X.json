@@ -120,7 +120,14 @@
                 }
             ], 
             "material_budget_v2": "not-found", 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.6-tue-11/CMSSW_10_6_X_2019-06-18-1100/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "static_checks_v2": "inprogress", 
             "valgrind": "inprogress", 
             "material_budget": "not-found", 
@@ -128,7 +135,7 @@
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
-            "igprof": "inprogress", 
+            "igprof": "found", 
             "hlt_tests": "inprogress"
         }, 
         {
