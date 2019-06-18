@@ -6007,6 +6007,34 @@
     },
     {
         "exitcode": 62720,
+        "id": "137.8",
+        "known_error": 0,
+        "name": "RunEGamma2018C+RunEGamma2018C+HLTDR2_2018+RECODR2_2018reHLT_skimEGamma_Offline_L1TEgDQM+RunEGamma2018D+HLTDR2_2018+RECODR2_2018reHLT_skimEGamma_Prompt_L1TEgDQM+HARVEST2018_L1TEgDQM_MULTIRUN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3353
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
         "id": "148.0",
         "known_error": 0,
         "name": "HydjetQ_MinBias_XeXe_5442GeV_2017+HydjetQ_MinBias_XeXe_5442GeV_2017+DIGIHI2017+RECOHI2017+HARVESTHI2017",
@@ -9102,6 +9130,29 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 831
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "10826.0",
+        "known_error": 0,
+        "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1182
             },
             {
                 "errors": 0,
