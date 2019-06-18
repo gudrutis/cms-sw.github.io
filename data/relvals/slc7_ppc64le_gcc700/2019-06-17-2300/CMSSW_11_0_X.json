@@ -2081,6 +2081,29 @@
     },
     {
         "exitcode": 0,
+        "id": "121.0",
+        "known_error": 0,
+        "name": "TTbar+TTbar2HS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 42
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 55
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 83
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "122.0",
         "known_error": 0,
         "name": "UpsMM+UpsMM+DIGI+RECO",
@@ -3073,6 +3096,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.767",
+        "known_error": 0,
+        "name": "RunZeroBias2016E+RunZeroBias2016E+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 94,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 323,
+                "status": "PASSED",
+                "warnings": 8533
+            },
+            {
+                "errors": 1285,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.768",
         "known_error": 0,
         "name": "RunMuOnia2016E+RunMuOnia2016E+HLTDR2_2016+RECODR2_2016reHLT_skimMuOnia_HIPM+HARVESTDR2",
@@ -3764,6 +3815,34 @@
             },
             {
                 "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.863",
+        "known_error": 0,
+        "name": "RunDoubleMuon2018B+RunDoubleMuon2018B+HLTDR2_2018+RECODR2_2018reHLT_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 309
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 1843
+            },
+            {
+                "errors": 26,
                 "status": "PASSED",
                 "warnings": 0
             }
