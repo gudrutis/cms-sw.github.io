@@ -5984,6 +5984,29 @@
     },
     {
         "exitcode": 62720,
+        "id": "136.858",
+        "known_error": 0,
+        "name": "RunNoBPTX2018A+RunNoBPTX2018A+HLTDR2_2018+RECODR2_2018reHLTAlCaTkCosmics_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 566
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
         "id": "136.8642",
         "known_error": 0,
         "name": "RunJetHT2018BHEfail+RunJetHT2018BHEfail+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt_HEfail+HARVEST2018_HEfail",
@@ -5997,6 +6020,52 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 977
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "136.877",
+        "known_error": 0,
+        "name": "RunMET2018C+RunMET2018C+HLTDR2_2018+RECODR2_2018reHLT_skimMET_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 2148
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "136.887",
+        "known_error": 0,
+        "name": "RunDoubleMuon2018D+RunDoubleMuon2018D+HLTDR2_2018+RECODR2_2018reHLT_Prompt+HARVEST2018_Prompt",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 2420
             },
             {
                 "errors": 0,
@@ -6255,6 +6324,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 55
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "301.0",
+        "known_error": 0,
+        "name": "Pyquen_DiJet_pt80to120_2760GeV+Pyquen_DiJet_pt80to120_2760GeV+DIGIHIMIX+RECOHIMIX+HARVESTHI2018PPRECO",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
             },
             {
                 "errors": 0,
@@ -10441,6 +10533,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 37
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "27834.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D38_GenSimHLBeamSpotFull14+DigiFullTrigger_2023D38+RecoFullGlobal_2023D38+HARVESTFullGlobal_2023D38",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
             },
             {
                 "errors": 0,
