@@ -135,7 +135,7 @@
                 "slc7_amd64_gcc900": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc900", 
                 "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_aarch64_gcc700"
             }, 
-            "flawfinder": "inprogress", 
+            "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
             "fwlite": [], 
@@ -277,7 +277,16 @@
                 }
             ], 
             "base_branch": "CMSSW_11_0_X", 
-            "invalid_includes": [], 
+            "invalid_includes": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc700/summary.json", 
+                    "details": {
+                        "num_fails": "154"
+                    }
+                }
+            ], 
             "builds": [
                 {
                     "arch": "slc7_amd64_gcc700", 
