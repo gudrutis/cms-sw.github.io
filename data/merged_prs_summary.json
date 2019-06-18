@@ -87,12 +87,12 @@
                     {
                         "done": false, 
                         "arch": "slc6_amd64_gcc700", 
-                        "passed": false, 
+                        "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-23/CMSSW_10_2_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 2587, 
-                            "known_failed": 0, 
-                            "num_failed": 6
+                            "known_failed": 6, 
+                            "num_failed": 0
                         }
                     }
                 ], 
@@ -14469,123 +14469,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fabiocos"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "civanch"
-                    }, 
-                    {
-                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
-                        "title": "Add pLHE relvals to standard relval campaign", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
-                        "number": "26875", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "chayanit"
-                    }, 
-                    {
-                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
-                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
-                        "number": "27193", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
-                        "title": "zeroing PF clustering uncertainty", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
-                        "number": "27182", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Sam-Harper"
-                    }, 
-                    {
-                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
-                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
-                        "number": "27198", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "andrius-k"
-                    }, 
-                    {
-                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
-                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
-                        "number": "27212", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
-                        "title": "FWCore/Framework: Move function call outside of assert", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
-                        "number": "27211", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
-                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
-                        "number": "27159", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
                         "hash": "3078af795f25c6953d132361f4e442841479ed27", 
                         "title": "Remove redundant unique_ptr constructor call from InputSourceFactory", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27188", 
@@ -14593,15 +14476,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
-                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
-                        "number": "27154", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -14631,13 +14505,13 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
-                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
-                        "number": "27195", 
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
@@ -14649,6 +14523,51 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
                         "title": "GENSIM strings for 10_6_X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27206", 
@@ -14656,6 +14575,123 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
+                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
+                        "number": "27198", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
+                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
+                        "number": "27193", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
+                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
+                        "number": "27195", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "fwlite": [], 
@@ -14777,7 +14813,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -14836,12 +14909,12 @@
                 "ib_date": "2019-06-17-2300-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc700", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0.CLANG-mon-23/CMSSW_11_0_CLANG_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2934, 
+                            "num_passed": 2931, 
                             "known_failed": 0, 
                             "num_failed": 10
                         }
@@ -16214,123 +16287,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fabiocos"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "civanch"
-                    }, 
-                    {
-                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
-                        "title": "Add pLHE relvals to standard relval campaign", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
-                        "number": "26875", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "chayanit"
-                    }, 
-                    {
-                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
-                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
-                        "number": "27193", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
-                        "title": "zeroing PF clustering uncertainty", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
-                        "number": "27182", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Sam-Harper"
-                    }, 
-                    {
-                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
-                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
-                        "number": "27198", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "andrius-k"
-                    }, 
-                    {
-                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
-                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
-                        "number": "27212", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
-                        "title": "FWCore/Framework: Move function call outside of assert", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
-                        "number": "27211", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
-                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
-                        "number": "27159", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
                         "hash": "3078af795f25c6953d132361f4e442841479ed27", 
                         "title": "Remove redundant unique_ptr constructor call from InputSourceFactory", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27188", 
@@ -16338,15 +16294,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
-                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
-                        "number": "27154", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -16376,13 +16323,13 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
-                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
-                        "number": "27195", 
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
@@ -16394,6 +16341,51 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
                         "title": "GENSIM strings for 10_6_X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27206", 
@@ -16401,6 +16393,123 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
+                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
+                        "number": "27198", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
+                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
+                        "number": "27193", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
+                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
+                        "number": "27195", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "fwlite": [], 
@@ -17056,7 +17165,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -17122,7 +17268,7 @@
                         "details": {
                             "num_passed": 1413, 
                             "known_failed": 0, 
-                            "num_failed": 528
+                            "num_failed": 530
                         }
                     }
                 ], 
@@ -18346,123 +18492,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fabiocos"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "civanch"
-                    }, 
-                    {
-                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
-                        "title": "Add pLHE relvals to standard relval campaign", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
-                        "number": "26875", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "chayanit"
-                    }, 
-                    {
-                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
-                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
-                        "number": "27193", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
-                        "title": "zeroing PF clustering uncertainty", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
-                        "number": "27182", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Sam-Harper"
-                    }, 
-                    {
-                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
-                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
-                        "number": "27198", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "andrius-k"
-                    }, 
-                    {
-                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
-                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
-                        "number": "27212", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
-                        "title": "FWCore/Framework: Move function call outside of assert", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
-                        "number": "27211", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
-                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
-                        "number": "27159", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
                         "hash": "3078af795f25c6953d132361f4e442841479ed27", 
                         "title": "Remove redundant unique_ptr constructor call from InputSourceFactory", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27188", 
@@ -18470,15 +18499,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
-                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
-                        "number": "27154", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -18508,13 +18528,13 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
-                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
-                        "number": "27195", 
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
@@ -18526,6 +18546,51 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
                         "title": "GENSIM strings for 10_6_X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27206", 
@@ -18533,6 +18598,123 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
+                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
+                        "number": "27198", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
+                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
+                        "number": "27193", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
+                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
+                        "number": "27195", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "fwlite": [], 
@@ -18661,7 +18843,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -18725,7 +18944,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0.ROOT618-mon-23/CMSSW_11_0_ROOT618_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1105, 
+                            "num_passed": 1149, 
                             "known_failed": 0, 
                             "num_failed": 4
                         }
@@ -20053,7 +20272,44 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -20126,7 +20382,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0.ROOT6-mon-23/CMSSW_11_0_ROOT6_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1062, 
+                            "num_passed": 1134, 
                             "known_failed": 0, 
                             "num_failed": 4
                         }
@@ -21738,123 +21994,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fabiocos"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "civanch"
-                    }, 
-                    {
-                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
-                        "title": "Add pLHE relvals to standard relval campaign", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
-                        "number": "26875", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "chayanit"
-                    }, 
-                    {
-                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
-                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
-                        "number": "27193", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
-                        "title": "zeroing PF clustering uncertainty", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
-                        "number": "27182", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Sam-Harper"
-                    }, 
-                    {
-                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
-                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
-                        "number": "27198", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "andrius-k"
-                    }, 
-                    {
-                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
-                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
-                        "number": "27212", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
-                        "title": "FWCore/Framework: Move function call outside of assert", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
-                        "number": "27211", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
-                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
-                        "number": "27159", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
                         "hash": "3078af795f25c6953d132361f4e442841479ed27", 
                         "title": "Remove redundant unique_ptr constructor call from InputSourceFactory", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27188", 
@@ -21862,15 +22001,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
-                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
-                        "number": "27154", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -21900,13 +22030,13 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
-                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
-                        "number": "27195", 
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
@@ -21918,6 +22048,51 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
                         "title": "GENSIM strings for 10_6_X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27206", 
@@ -21925,6 +22100,123 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
+                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
+                        "number": "27198", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
+                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
+                        "number": "27193", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
+                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
+                        "number": "27195", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "fwlite": [], 
@@ -22092,123 +22384,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
-                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
-                        "number": "26814", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
-                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
-                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
-                        "number": "27199", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fabiocos"
-                    }, 
-                    {
-                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
-                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
-                        "number": "27218", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
-                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
-                        "title": "Reco vertex adjustments", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
-                        "number": "27174", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
-                        "title": "Validation fixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
-                        "number": "27116", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "perrotta"
-                    }, 
-                    {
-                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
-                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
-                        "number": "27204", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "civanch"
-                    }, 
-                    {
-                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
-                        "title": "Add pLHE relvals to standard relval campaign", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
-                        "number": "26875", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "chayanit"
-                    }, 
-                    {
-                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
-                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
-                        "number": "27193", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
-                        "title": "zeroing PF clustering uncertainty", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
-                        "number": "27182", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Sam-Harper"
-                    }, 
-                    {
-                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
-                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
-                        "number": "27198", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "andrius-k"
-                    }, 
-                    {
-                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
-                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
-                        "number": "27212", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
-                        "title": "FWCore/Framework: Move function call outside of assert", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
-                        "number": "27211", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "gartung"
-                    }, 
-                    {
-                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
-                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
-                        "number": "27159", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
-                    }, 
-                    {
                         "hash": "3078af795f25c6953d132361f4e442841479ed27", 
                         "title": "Remove redundant unique_ptr constructor call from InputSourceFactory", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27188", 
@@ -22216,15 +22391,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "makortel"
-                    }, 
-                    {
-                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
-                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
-                        "number": "27154", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "guitargeek"
                     }, 
                     {
                         "hash": "ee48640a91fe6d0cccb950127951c98973de487a", 
@@ -22254,13 +22420,13 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
-                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
-                        "number": "27195", 
+                        "hash": "f929234dbbdf847db4328eb7c8e7e92a9bd485e9", 
+                        "title": "zeroing PF clustering uncertainty", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27182", 
+                        "number": "27182", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "makortel"
+                        "author_login": "Sam-Harper"
                     }, 
                     {
                         "hash": "5eacfa378d573e8f593d782c2b38c30ed05b9145", 
@@ -22272,6 +22438,51 @@
                         "author_login": "mmusich"
                     }, 
                     {
+                        "hash": "5bf761b09a6b7352866471fba4bde2621de5bd6b", 
+                        "title": "FWCore/Framework: Move function call outside of assert", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27211", 
+                        "number": "27211", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "be8993b752bddc6f3fc9d2cb93a972383e0df9a7", 
+                        "title": "Bug fix in the alternative Geant4 physics list for exotic particles ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27204", 
+                        "number": "27204", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "civanch"
+                    }, 
+                    {
                         "hash": "ebcaa9302c093d01f9982c36f128409f9ad8671f", 
                         "title": "GENSIM strings for 10_6_X", 
                         "url": "https://github.com/cms-sw/cmssw/pull/27206", 
@@ -22279,6 +22490,123 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5b8ac4e4019be3c42a6543284e61790b3904fdc6", 
+                        "title": "Add pLHE relvals to standard relval campaign", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26875", 
+                        "number": "26875", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "chayanit"
+                    }, 
+                    {
+                        "hash": "5d3473b906101636c548e67d1b061dfb166ab751", 
+                        "title": "Blacklisted more plots from DQM/TimerServices in DQM bin by bin tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27198", 
+                        "number": "27198", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "andrius-k"
+                    }, 
+                    {
+                        "hash": "cb1b3cf4533bc789ace3f71355b058524cf52bfa", 
+                        "title": "Adjust clang-format after CMSSW_11_0_X_2019-06-13-1100", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27199", 
+                        "number": "27199", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "e6519fe184b2666a6b61f346022fbed7e4b915ec", 
+                        "title": "Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/26814", 
+                        "number": "26814", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "a7dbd2f664cbce7d724d67c6359ecffa2f6f1098", 
+                        "title": "Remove redundant unique_ptr constructor calls from PhysicsTools", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27193", 
+                        "number": "27193", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "6723259642409edb9cb542896bfb53372a32740b", 
+                        "title": "Remove redundant unique_ptr constructor call from DigiAccumulatorMixModFactory", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27195", 
+                        "number": "27195", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "72fc8fb915d0ac14f3c47e5ca04828a9163b16cb", 
+                        "title": "Validation fixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27116", 
+                        "number": "27116", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "662f87463f0070a3d46d0bd5506b9350e0c2002a", 
+                        "title": "FWCore/MessageService: Run standAloneTest script with testRunner.cpp", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27212", 
+                        "number": "27212", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gartung"
+                    }, 
+                    {
+                        "hash": "164c8ab894af98618bf1e9ff1e2977a9f328b72c", 
+                        "title": "Reco vertex adjustments", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27174", 
+                        "number": "27174", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "perrotta"
+                    }, 
+                    {
+                        "hash": "361e8ee8bda2eead883f6065a559997be9ae2461", 
+                        "title": "Merger the .h and .cc of all plugins in RecoParlicleFlow/PFProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27159", 
+                        "number": "27159", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "eba7c1f07639bdacc6c2820be436cc490f1a11ac", 
+                        "title": "Avoid shared_ptr in RecoParticleFlow/PFProducer and remove PFSCEnergyCalibration", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27154", 
+                        "number": "27154", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }, 
+                    {
+                        "hash": "1c94ce777536331c748c932b5c34cda7801d6f6e", 
+                        "title": "Fix compilation problems with gcc 9 in FWCore/ParameterSet", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27218", 
+                        "number": "27218", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }
                 ], 
                 "fwlite": [], 
@@ -22420,7 +22748,44 @@
                 "comp_baseline": "inprogress", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "a9a978f02577221d31164405149f6a49d4db52ba", 
+                        "title": "Phase2-hcx209 Enable RecHits for HFNose", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27129", 
+                        "number": "27129", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
+                        "hash": "19f9195cc43ac0b36a8fdfc58c3765ef7259c68f", 
+                        "title": "PF tracks to HF extrapolation for Phase2 (and suppress unnecessary warnings)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27131", 
+                        "number": "27131", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hatakeyamak"
+                    }, 
+                    {
+                        "hash": "514e187ca90d9643dbf0bf24792a53f62aeccacf", 
+                        "title": "Running code-format for reconstruction", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27223", 
+                        "number": "27223", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "60e4f5cb800f5d85db90acd12ff88a1c8a0e4b49", 
+                        "title": "Bugfix after \"Adapting MVAVariableHelper to new E/gamma UL format and removal of MultiToken\"", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/27221", 
+                        "number": "27221", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "guitargeek"
+                    }
+                ], 
                 "base_branch": "CMSSW_11_0_X", 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -22591,18 +22956,18 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1117, 
+                            "num_passed": 1191, 
                             "known_failed": 0, 
                             "num_failed": 7
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc820", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2824, 
+                            "num_passed": 2928, 
                             "known_failed": 0, 
                             "num_failed": 11
                         }
@@ -22613,7 +22978,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1794, 
+                            "num_passed": 1814, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
@@ -22624,9 +22989,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 996, 
-                            "known_failed": 0, 
-                            "num_failed": 71
+                            "num_passed": 1132, 
+                            "known_failed": 43, 
+                            "num_failed": 30
                         }
                     }, 
                     {
@@ -22635,7 +23000,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1815, 
+                            "num_passed": 1911, 
                             "known_failed": 0, 
                             "num_failed": 87
                         }
