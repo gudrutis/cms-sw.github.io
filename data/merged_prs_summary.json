@@ -22299,24 +22299,14 @@
                     "slc7_amd64_gcc820": [], 
                     "slc7_ppc64le_gcc700": [], 
                     "slc7_amd64_gcc900": [], 
-                    "slc7_aarch64_gcc700": [
-                        {
-                            "hash": "097d6bec87686ab715bdb9615cce4f8ad6a22773", 
-                            "title": "[BuildRules] Pass full path to tmp direcotry to avoid errors", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/5044", 
-                            "number": "5044", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_aarch64_gcc700": []
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X/gcc700", 
                     "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X/gcc820", 
                     "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-17-2300/slc7_ppc64le_gcc700..IB/CMSSW_11_0_X/gcc700", 
                     "slc7_amd64_gcc900": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc900..IB/CMSSW_11_0_X/gcc9", 
-                    "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700..IB/CMSSW_11_0_X/gcc700"
+                    "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X/gcc700"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {}, 
@@ -22358,7 +22348,8 @@
                     "slc7_amd64_gcc700", 
                     "slc7_amd64_gcc820", 
                     "slc7_ppc64le_gcc700", 
-                    "slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900", 
+                    "slc7_aarch64_gcc700"
                 ], 
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc700": [
@@ -22404,20 +22395,33 @@
                             "from_merge_commit": false, 
                             "author_login": "cms-sw"
                         }
+                    ], 
+                    "slc7_aarch64_gcc700": [
+                        {
+                            "hash": "097d6bec87686ab715bdb9615cce4f8ad6a22773", 
+                            "title": "[BuildRules] Pass full path to tmp direcotry to avoid errors", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/5044", 
+                            "number": "5044", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
                     ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc700", 
                     "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-06-16-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc820", 
                     "slc7_amd64_gcc900": "IB/CMSSW_11_0_X_2019-06-17-1100/slc7_amd64_gcc900..IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc900", 
-                    "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-06-17-2300/slc7_ppc64le_gcc700"
+                    "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-16-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-06-17-2300/slc7_ppc64le_gcc700", 
+                    "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-16-0000/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-06-17-2300/slc7_aarch64_gcc700"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc700", 
                     "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc820", 
                     "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-06-17-2300/slc7_ppc64le_gcc700", 
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_amd64_gcc900", 
+                    "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-06-17-2300/slc7_aarch64_gcc700"
                 }, 
                 "flawfinder": "inprogress", 
                 "next_ib": false, 
@@ -22454,6 +22458,12 @@
                         "arch": "slc7_amd64_gcc700", 
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/new/logAnalysis.pkl']", 
                         "details": {}
                     }
                 ], 
@@ -22580,6 +22590,14 @@
                         "details": {
                             "compWarning": 1412, 
                             "ignoreWarning": 255
+                        }
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-06-17-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 221
                         }
                     }, 
                     {
